@@ -7,9 +7,15 @@
 public class HolaMundo {
 
 	public static void main (String[] args){
-
+		
+		saludarEnIngles();
 		System.out.println("Hola Mundo!");
-		System.out.println("Hello World!");
+
+	}
+
+	public static void saludarEnIngles(){
+
+		System.out.println("Hello World");
 	
 	}
 
