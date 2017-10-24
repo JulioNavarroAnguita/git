@@ -1,0 +1,6 @@
+#ignora la documentacion
+/doc
+
+#ignora los bytecodes
+*.class
+
