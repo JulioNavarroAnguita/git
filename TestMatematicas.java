@@ -3,6 +3,7 @@ public class TestMatematicas {
 	
 		int numero = 18;
 		boolean resultado = Matematicas.esPar(numero);
-		System.out.println("El numero " + numero + " es par? " + resultado);
+		System.out.println("El numero " + numero + " es par? " 
+				+ resultado);
 	}
 }
