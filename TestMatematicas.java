@@ -6,8 +6,6 @@ public class TestMatematicas {
 		System.out.println("El numero " + numero + " es par? " 
 				+ resultado);
 
-		System.out.println("El numero " + numero + " es par? " + resultado);
-
 		boolean divisibleEntreTres = Matematicas.esDivisiblePorTres (numero);
 		System.out.println("el numero " + numero + 
 			" ¿es divisible entre 3? " + divisibleEntreTres);
