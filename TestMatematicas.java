@@ -2,17 +2,17 @@ public class TestMatematicas {
 	public static void main (String [] args) {
 	
 		int numero = 21;
-		boolean resultado = Matematicas.esPar(numero);
+		boolean resultadoUno = Matematicas.esPar(numero);
 		System.out.println("El numero " + numero + " es par? " 
-				+ resultado);
+				+ resultadoUno);
 
-		boolean divisibleEntreTres = Matematicas.esDivisiblePorTres (numero);
+		boolean resultadoDos = Matematicas.esDivisiblePorTres (numero);
 		System.out.println("el numero " + numero + 
-			" ¿es divisible entre 3? " + divisibleEntreTres);
+			" ¿es divisible entre 3? " + resultadoDos);
 		
-		boolean divisiblePorCinco = Matematicas.esDivisiblePorCinco (numero);
+		boolean resultadoTres = Matematicas.esDivisiblePorCinco (numero);
 		System.out.println("El numero " + numero + 
-				" ¿es divisible entre 5? " + divisiblePorCinco);
+				" ¿es divisible entre 5? " + resultadoTres);
 
 	}
 
